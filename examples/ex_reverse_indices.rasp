@@ -1,0 +1,4 @@
+x = "hello"
+result = reverse_indices(x)
+print(result)  # Output: [4, 3, 2, 1, 0]
+

@@ -7,6 +7,13 @@ For example:
 [4, 3, 2, 1, 0]
 ```
 
+```
+>> reverse_indices = length - indices - 1;
+     s-op: reverse_indices
+ 	 Example: reverse_indices("hello") = [4, 3, 2, 1, 0] (ints)
+```
+
+
 **Problem 2:**
 Write a function that "rotates" the input text by the specified number of characters.
 For example:

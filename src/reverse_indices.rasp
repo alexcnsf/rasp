@@ -1,0 +1,5 @@
+reverse_indices(x):
+    idx = index(x)       
+    reversed_idx = reverse(idx)
+    return reversed_idx
+
