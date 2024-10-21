@@ -189,19 +189,16 @@ Write a function that returns the frequency of each token in the input sequence.
 
 Solution:
 ```
-def token_density(seq):
-    total_tokens = len(seq)
-    
-    # Create a dictionary that stores the count of each token
-    counts = {token: seq.count(token) for token in seq}
-    
-    # Aggregate the counts to get density (frequency / total tokens)
-    density = [counts[token] / total_tokens for token in seq]
-    
-    return density
+>> token_counts = selector_width(select(tokens, tokens, ==));
+     s-op: token_counts
+ 	 Example: token_counts("hello") = [1, 1, 2, 2, 1] (ints)
+>> token_density = token_counts / length;
+     s-op: token_density
+ 	 Example: token_density("hello") = [0.2, 0.2, 0.4, 0.4, 0.2] (floats)
 ```
 
 Output:
 ```
-
+>> token_density("hello");
+	 =  [0.2, 0.2, 0.4, 0.4, 0.2] (floats)
 ```
