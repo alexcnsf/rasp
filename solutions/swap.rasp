@@ -1,0 +1,6 @@
+def swap(seq) {
+  return aggregate(select(indices, indices+1, ==), seq, "x") 
+    if indices % 2 == 0 
+    else aggregate(select(indices, indices-1, ==), seq, "x");
+}
+

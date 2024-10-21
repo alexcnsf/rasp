@@ -1,0 +1,3 @@
+def reverse_indices(length, indices):
+    return length - indices - 1
+

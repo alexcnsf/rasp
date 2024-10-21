@@ -1,0 +1,2 @@
+def reverse_sequence(seq) {
+    return aggregate(select(indices, length - 1 - indices, ==), seq, "");
